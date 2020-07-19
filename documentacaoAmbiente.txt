@@ -1,0 +1,25 @@
+Automação WEB
+    Instalar Python
+    pip install robotframework - Instalar o robot
+    pip install --upgrade robotframework-seleniumlibrary - Instalar o seleniumlibrary
+    Baixar o driver do navegador, Colocar o caminho para o driver no path
+
+Automação Mobile
+    Instalar JDK 8/1.8
+    Criar variavel de ambiente "JAVA_HOME" com o caminho para o JDK
+    Colocar no path %JAVA_HOME%\bin
+    Para emular no android studio (Mesmo sem emulador precisa o sdk para o appium)
+        Instalar android studio
+        Criar variavel de ambiente "ANDROID_HOME" com o caminho para Android\Sdk
+        Colocar no path %ANDROID_HOME%\platform-tools
+        Colocar no path %ANDROID_HOME%\tools
+        Colocar no path %ANDROID_HOME%\tools\lib
+        Colocar no path %ANDROID_HOME%\tools\bin
+    Instalar node.js
+    npm install appium -g - Instalar Appium de forma glabal
+    npm install appium-doctor - Instalar diagnostico de ambiente do Appium
+    appium-doctor --android - Comando para diagnostico do ambiente de automação
+    Instalar o app do Appium
+    adb devices - Comando para listar os dispositivos que podem ser usados para rodar os testes e seus status e identificadores
+    OBS: Mesmos dados usados no "Open Session" da automação é usado no inspector do Appium
+    
